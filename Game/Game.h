@@ -30,7 +30,6 @@ public:
 	Game(class MainWindow& wnd);
 	Game(const Game&) = delete;
 	Game& operator=(const Game&) = delete;
-	Game& operator=(const Game&) = delete;
 	void Go();
 private:
 	void UpdateModel();
