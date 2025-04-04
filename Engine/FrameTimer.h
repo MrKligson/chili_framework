@@ -2,10 +2,10 @@
 
 #include <chrono>
 
-class Frametimer
+class FrameTimer
 {
 public:
-	Frametimer();
+	FrameTimer();
 	float Mark();
 
 private:

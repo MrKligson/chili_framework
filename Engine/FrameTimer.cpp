@@ -2,12 +2,12 @@
 
 using namespace std::chrono;
 
-Frametimer::Frametimer()
+FrameTimer::FrameTimer()
     : last(steady_clock::now())
 {
 }
 
-float Frametimer::Mark()
+float FrameTimer::Mark()
 {
     const auto old = last;
     last = steady_clock::now();
